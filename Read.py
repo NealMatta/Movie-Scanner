@@ -37,6 +37,7 @@ def main():
         sleep(0.5)
         print("====================" * 3)
     except KeyboardInterrupt:
+        print("Quitting")
         GPIO.cleanup()
         raise
     
